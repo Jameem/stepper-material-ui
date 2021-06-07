@@ -1,0 +1,32 @@
+.stepForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(228 222 222);
+}
+
+.stepForm__stepper {
+  border-bottom: 1px solid rgb(228 222 222);
+}
+
+.stepForm__instruction {
+  margin: 10px !important;
+}
+
+.stepForm__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepForm__footerPriceInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .stepForm__footerPriceInfo {
+    display: flex;
+    flex-direction: column;
+  }
+}
