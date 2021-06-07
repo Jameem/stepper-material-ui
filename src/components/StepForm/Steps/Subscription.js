@@ -59,11 +59,7 @@ function Subscription({
 
       <div className="m-5 step__form">
         <form>
-          <FormControl
-            variant="outlined"
-            style={{ width: "100%" }}
-            className="m-10"
-          >
+          <FormControl variant="outlined" style={{ width: "100%" }}>
             <InputLabel>Duration</InputLabel>
             <Select
               native
@@ -84,7 +80,7 @@ function Subscription({
           <FormControl
             variant="outlined"
             style={{ width: "100%" }}
-            className="m-10"
+            className="mt-30"
           >
             <InputLabel htmlFor="outlined-age-native-simple">
               Storage Space in GB
@@ -108,7 +104,7 @@ function Subscription({
           <FormControl
             component="fieldset"
             style={{ width: "100%" }}
-            className="m-10"
+            className="mt-30"
             data-testid="payupFront"
           >
             <FormLabel component="legend">Pay Upfront?</FormLabel>
